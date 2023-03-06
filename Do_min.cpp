@@ -31,7 +31,6 @@ int main(){
 	generate_bomb(play_screen);
 	bool game_continue=true;
 	int x1=-1000, y1=-1000;
-	int count_bomb=0;
 	int picked_position=collumn*row;
 	do{
 		cout << "Enter the position you doubt that has bomb: \n";
